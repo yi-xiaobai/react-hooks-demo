@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import StateHooks from './stateHooks';
+import App from './App';
 
 ReactDOM.render(
-  <StateHooks />,
+  <App />,
   document.getElementById('root')
 );
 
