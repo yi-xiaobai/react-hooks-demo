@@ -1,0 +1,18 @@
+.qiuqiu {
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+  animation: move 2s ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
