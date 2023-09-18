@@ -34,7 +34,7 @@ export default function Reducers() {
 
     return (
         <div>
-            <h1>todolist列表安排</h1>
+            <h1>todolist列表安排---reducers实现</h1>
             <AddTask addTask={handleAddTask} />
             <TaskList task={tasks} changeTask={handleChangeTask} removeTask={handleRemoveTask} />
         </div>
